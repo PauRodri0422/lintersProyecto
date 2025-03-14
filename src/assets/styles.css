@@ -48,12 +48,8 @@ p {
 }
 
 fieldset {
-  border: none;
-  margin: 0;
-<<<<<<< HEAD
-=======
-  padding: auto;
->>>>>>> 0afcf54c51f52625d92dd6e999b3a873a7b51351
+padding: 10px;
+border: 1px solid #ccc;
 }
 
 input,
