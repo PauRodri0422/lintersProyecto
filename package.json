@@ -522,6 +522,7 @@
     "yauzl": "^2.10.0",
     "zwitch": "^1.0.5"
   },
+<<<<<<< HEAD
   "description": "",
   "repository": {
     "type": "git",
@@ -532,4 +533,7 @@
     "url": "https://github.com/PauRodri0422/lintersProyecto/issues"
   },
   "homepage": "https://github.com/PauRodri0422/lintersProyecto#readme"
+=======
+  "description": ""
+>>>>>>> 0afcf54c51f52625d92dd6e999b3a873a7b51351
 }

@@ -50,6 +50,10 @@ p {
 fieldset {
   border: none;
   margin: 0;
+<<<<<<< HEAD
+=======
+  padding: auto;
+>>>>>>> 0afcf54c51f52625d92dd6e999b3a873a7b51351
 }
 
 input,
@@ -81,6 +85,10 @@ label {
   display: inline-block;
   width: unset;
   margin: 0 0.3em;
+<<<<<<< HEAD
+=======
+  padding: auto;
+>>>>>>> 0afcf54c51f52625d92dd6e999b3a873a7b51351
   vertical-align: middle;
 }
 
@@ -88,6 +96,10 @@ input[type="submit"] {
   display: block;
   width: 25vw;
   margin: auto;
+<<<<<<< HEAD
+=======
+  padding: auto;
+>>>>>>> 0afcf54c51f52625d92dd6e999b3a873a7b51351
   color: rgb(0, 0, 0);
   background-color: rgb(195, 185, 174);
   border-color: rgb(0, 0, 0);
