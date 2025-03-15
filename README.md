@@ -17,40 +17,31 @@ Este es un proyecto de ejemplo que utiliza linters y herramientas de calidad de 
    git clone https://github.com/PauRodri0422/lintersProyecto.git
    cd lintersProyecto
 Instala las dependencias:
-
-bash
-Copy
 npm install
-Ejecuta el servidor de desarrollo:
 
-bash
-Copy
+
+Ejecuta el servidor de desarrollo:
 npm start
+
 🛠️ Comandos Útiles
 Linting:
 
-bash
-Copy
 npm run lint:js       # Ejecuta ESLint
 npm run lint:css      # Ejecuta Stylelint
 npm run lint          # Ejecuta ambos linters
 Build:
 
-bash
-Copy
+
 npm run build         # Compila el proyecto con Webpack
 Pruebas:
 
-bash
-Copy
+
 npm test              # Ejecuta las pruebas (si están configuradas)
 Corregir errores de linting automáticamente:
 
-bash
-Copy
+
 npm run lint:fix      # Corrige errores de ESLint y Stylelint
 📂 Estructura del Proyecto
-Copy
 lintersProyecto/
 ├── src/                # Código fuente
 │   ├── assets/         # Assets (CSS, imágenes)
@@ -62,6 +53,7 @@ lintersProyecto/
 ├── webpack.config.js   # Configuración de Webpack
 ├── package.json        # Dependencias y scripts
 └── README.md           # Este archivo
+
 🛡️ Linters y Formato
 ESLint: Asegura que el código JavaScript siga las mejores prácticas.
 
