@@ -1,24 +1,21 @@
-Linters Proyecto
-Este es un proyecto de ejemplo que utiliza linters y herramientas de calidad de código para mantener un código limpio y consistente. El proyecto está configurado con ESLint para JavaScript, Stylelint para CSS, y Webpack para la gestión de assets.
+# Linters Proyecto
 
-🚀 Características
-ESLint: Linting para JavaScript.
+Este es un proyecto de ejemplo que utiliza linters y herramientas de calidad de código para mantener un código limpio y consistente. El proyecto está configurado con **ESLint** para JavaScript, **Stylelint** para CSS, y **Webpack** para la gestión de assets.
 
-Stylelint: Linting para CSS.
+## 🚀 Características
 
-Webpack: Empaquetado de assets (JavaScript, CSS, imágenes).
+- **ESLint**: Linting para JavaScript.
+- **Stylelint**: Linting para CSS.
+- **Webpack**: Empaquetado de assets (JavaScript, CSS, imágenes).
+- **Pre-commit Hooks**: Uso de Husky para ejecutar linters antes de cada commit.
+- **Pruebas Automatizadas**: Configuración básica para pruebas (opcional).
 
-Pre-commit Hooks: Uso de Husky para ejecutar linters antes de cada commit.
+## 📦 Instalación
 
-Pruebas Automatizadas: Configuración básica para pruebas (opcional).
-
-📦 Instalación
-Clona el repositorio:
-
-bash
-Copy
-git clone https://github.com/PauRodri0422/lintersProyecto.git
-cd lintersProyecto
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/PauRodri0422/lintersProyecto.git
+   cd lintersProyecto
 Instala las dependencias:
 
 bash
@@ -52,7 +49,7 @@ Corregir errores de linting automáticamente:
 bash
 Copy
 npm run lint:fix      # Corrige errores de ESLint y Stylelint
-� Estructura del Proyecto
+📂 Estructura del Proyecto
 Copy
 lintersProyecto/
 ├── src/                # Código fuente
@@ -95,3 +92,16 @@ Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más 
 Asegúrate de que todos los linters pasen antes de hacer un commit.
 
 Si usas Prettier, configura tu editor para formatear el código automáticamente.
+
+Copy
+
+---
+
+### Instrucciones para usar:
+1. Copia el contenido anterior.
+2. Pega en tu archivo `README.md` en la rama `develop`.
+3. Guarda los cambios y haz commit:
+   ```bash
+   git add README.md
+   git commit -m "Actualiza README.md con la información del proyecto"
+   git push origin develop
