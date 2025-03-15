@@ -48,9 +48,8 @@ p {
 }
 
 fieldset {
-  border: none;
-  margin: 0;
-  padding: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
 }
 
 input,
@@ -82,7 +81,7 @@ label {
   display: inline-block;
   width: unset;
   margin: 0 0.3em;
-  padding: auto;
+  padding: 10px;
   vertical-align: middle;
 }
 
@@ -90,7 +89,7 @@ input[type="submit"] {
   display: block;
   width: 25vw;
   margin: auto;
-  padding: auto;
+  padding: 10px;
   color: rgb(0, 0, 0);
   background-color: rgb(195, 185, 174);
   border-color: rgb(0, 0, 0);
