@@ -1,173 +1,97 @@
-<a name="readme-top"></a>
+Linters Proyecto
+Este es un proyecto de ejemplo que utiliza linters y herramientas de calidad de código para mantener un código limpio y consistente. El proyecto está configurado con ESLint para JavaScript, Stylelint para CSS, y Webpack para la gestión de assets.
 
-<div align="center">
+🚀 Características
+ESLint: Linting para JavaScript.
 
-<img src="logo.png" alt="logo" width="140" height="auto" style="border-radius:50%"   />
-<br/>
-<h3><b>NEWTORK SCRIPT PROJECT</b>
+Stylelint: Linting para CSS.
 
-</div>
+Webpack: Empaquetado de assets (JavaScript, CSS, imágenes).
 
-# ✅ TABLE OF CONTENTS
-- [📖 About the Project](#about-project)
-  - [⚒️ Build With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
- - [💻 Getting Started](#getting-started)
-   - [Setup](#setup)
-   -  [Prerequisites](#prerequisites)
-   - [Install](#install)
-   - [Usage](#usage)
-   - [Run tests](#run-tests)
-   - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🕹️ Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐ Show your Support](#support)
-- [👏 Acknowledgements ](#ackknowledgements)
-- [❓ FAQ ](#faq)
-- [📃 License](#license)
+Pre-commit Hooks: Uso de Husky para ejecutar linters antes de cada commit.
 
-# 📖 [NETWORK SCRIPT PROJECT]<a name="about-project"></a>
+Pruebas Automatizadas: Configuración básica para pruebas (opcional).
 
-**[Networ Script Project]** This is a first project in SENA'S   SysAdmin Network Curriculum
+📦 Instalación
+Clona el repositorio:
 
-## ⚒️ Build With <a name="built-with"></a>
+bash
+Copy
+git clone https://github.com/PauRodri0422/lintersProyecto.git
+cd lintersProyecto
+Instala las dependencias:
 
-<p>
-This Projects was built using:
-HTML, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
-</p>
+bash
+Copy
+npm install
+Ejecuta el servidor de desarrollo:
 
-### Tech Stack <a name="tech-stack"></a>
+bash
+Copy
+npm start
+🛠️ Comandos Útiles
+Linting:
 
-<li> HTML </li>
-<li> MARKDOWN </li>
-<li> SHELLSCRIPT </li>
-<li> GIT </li>
-<li> GITHUB </li>
+bash
+Copy
+npm run lint:js       # Ejecuta ESLint
+npm run lint:css      # Ejecuta Stylelint
+npm run lint          # Ejecuta ambos linters
+Build:
 
-<details>
-<summary> Client </summary>
-    <ul>
-    <li><a href="
-https://developer.mozilla.org/es/docs/Web/HTML
-">HTML</a></li>    
-    </ul>
-</details>
+bash
+Copy
+npm run build         # Compila el proyecto con Webpack
+Pruebas:
 
-<details>
-<summary>Markdown</summary>
-<ul>
-<li><a href="
-https://markdown.es/sintaxis-markdown/
-">Markdown</a></li>
-</ul>
-</details>
+bash
+Copy
+npm test              # Ejecuta las pruebas (si están configuradas)
+Corregir errores de linting automáticamente:
 
+bash
+Copy
+npm run lint:fix      # Corrige errores de ESLint y Stylelint
+� Estructura del Proyecto
+Copy
+lintersProyecto/
+├── src/                # Código fuente
+│   ├── assets/         # Assets (CSS, imágenes)
+│   ├── js/             # JavaScript
+│   └── index.html      # Página principal
+├── dist/               # Carpeta de salida (generada por Webpack)
+├── .eslintrc.js        # Configuración de ESLint
+├── .stylelintrc.json   # Configuración de Stylelint
+├── webpack.config.js   # Configuración de Webpack
+├── package.json        # Dependencias y scripts
+└── README.md           # Este archivo
+🛡️ Linters y Formato
+ESLint: Asegura que el código JavaScript siga las mejores prácticas.
 
-### Key Features <a name="key-features"></a>
+Stylelint: Mantiene un estilo consistente en los archivos CSS.
 
-<p align="right"><a href="#readme-top">Back to top</a></p>
+Prettier: Formatea automáticamente el código (opcional).
 
-## 💻 Getting Started <a name="getting-started"></a>
+🐛 Reportar Problemas
+Si encuentras algún problema o tienes una sugerencia, por favor abre un issue.
 
+🤝 Contribuir
+¡Las contribuciones son bienvenidas! Sigue estos pasos:
 
-To get a local copy up and running follow these steps:
+Haz un fork del repositorio.
 
-### Prerequsites 
+Crea una rama para tu feature (git checkout -b feature/nueva-funcionalidad).
 
-To run this project you need the following tools:
+Haz commit de tus cambios (git commit -m 'Añade nueva funcionalidad').
 
-- [VS Code]
-- [Git and GitHub]
-- [ShellScript ]
+Haz push a la rama (git push origin feature/nueva-funcionalidad).
 
-### Setup
+Abre un Pull Request.
 
-Clone this respository  to your desired folder:
+📄 Licencia
+Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
 
-```sh
-cd NEWTORK-SCRIPT
-git clone 
-https://github.com/alyconr/Network-Shell-Script-.git
+📌 Notas Adicionales
+Asegúrate de que todos los linters pasen antes de hacer un commit.
 
-```
-### Install
-
-Install This project with:
-
-```sh
-    ./networkScript.sh
-```
-
-### Usage 
-
-To run the project, execute the following command:
-
-```sh
-./networkScript.sh
-```
-
-### Run Test
-
-To run test, run the following command or endpoint:
-
-```sh
-python -m unittest test_module.TestClass
-```
-
-
-### Deployment
-
-Deploy using your local enviroment
-
-<p align="right"><a href="#readme-top">Back to top</a></p>
-
-## 👥 Authors <a name="authors"></a>
-
-Jeysson Contreras
-
-🧑🏻‍💻 **Author 1**
-
- - GitHub: [@alyconr](
-https://github.com/alyconr
-)
- - LinkedIn: [LinkedIn](
-https://www.linkedin.com/in/jeysson-aly-contreras
-)
-
-
-## 🕹️ Future Features <a name="future-features"></a>
-
-- [ ] **[Ping]**
-- [ ] **[Nslookup]**
-- [ ] **[BandWitdth Test]**
-
-
-## 🤝 Contributing <a name="contributing"></a>
-
-
-Contributions, issues, and  feature requests are welcome!
-
-Feel free tp check the [issues page](
-https://github.com/alyconr/Network-Shell-Script-/issues
-)
-
-
-## ⭐ Show your Support
-
-Wrrite a message to encourage readers to support your project
-
-If you like this project please give one start
-
-## 👏 Acknowledgements <a name="acknowledgements"></a>
-
-I would like to thank my learning teammates  and Sena Instructor
-
-## 📃 License <a name="license"></a>
-
-This Project is [MIT](./LICENSE.md) licensed
-
-<p align="right"><a href="#readme-top">Back to top</a></p>
+Si usas Prettier, configura tu editor para formatear el código automáticamente.
